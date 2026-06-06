@@ -135,7 +135,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #c8dee6 0%, #4e739c 90%);
+  background: linear-gradient(135deg, #fff0f5 0%, #ffd6e7 50%, #ffb6c1 100%);
   z-index: -10;
 }
 
@@ -673,7 +673,7 @@ function createFloatingElements() {
     const duration = Math.random() * 10 + 15; // 15s to 25s
     
     element.className = 'floating-thing';
-    element.textContent = '🍗';
+    element.textContent = '🥑';
     element.style.left = `${left}%`;
     element.style.top = `${top}%`;
     element.style.animationDelay = `${delay}s`;
@@ -746,7 +746,7 @@ async function fetchSheetData() {
 
   try {
     // 這裡只需要您的試算表 ID，不需要 API Key
-    const sheetId = '1h6pjX-jlmcGHg_RgeJKbzoVhiCI8u2vdMD159fAWRxE'; 
+    const sheetId = '1i-r8izQVMc2R-6Yf_oNmWXr2whM6SVoat0J_xoVA33A'; 
     
     // 1. Fetch Title Data (分頁: title)
     // 使用 opensheet.elk.sh 讀取標題分頁，與歌曲讀取方式一致
